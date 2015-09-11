@@ -166,6 +166,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
 			imageView2.setBackgroundResource(R.drawable.find_indicator);
 			imageView4.setBackgroundResource(R.drawable.myinfo_indicator_selected);
 			imageView5.setBackgroundResource(R.drawable.friend_indicator_selected);
+			//cese
 			break;
 
 		default:
