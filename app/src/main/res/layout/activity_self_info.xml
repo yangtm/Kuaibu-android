@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelfInfoActivity" 
+    android:orientation="vertical">
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        
+        >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/shousuo"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="个人资料" 
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            
+            />
+        
+    </LinearLayout>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#000000"
+        />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的头像"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            />
+        <ImageView 
+            android:layout_weight="1"
+            android:id="@+id/info_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:layout_gravity="center"
+            />
+        
+        <ImageView 
+            android:layout_weight="1"
+            android:id="@+id/info_changeimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/shousuo"
+            />
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginTop="8dp"
+        />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView 
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的姓名"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            />
+        
+        <TextView 
+            android:id="@+id/info_name"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="张五常"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            />
+        <ImageView 
+            android:layout_weight="1"
+            android:id="@+id/info_changename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shousuo"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginTop="8dp"
+        />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView 
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            />
+        
+        <TextView 
+            android:id="@+id/info_sex"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="90dp"
+            />
+        
+        <ImageView 
+            android:layout_weight="1"
+            android:id="@+id/info_changesex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shousuo"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -6,10 +6,12 @@ import com.yibu.kuaibu.fragment.FindFragment;
 import com.yibu.kuaibu.fragment.FriendFragment;
 import com.yibu.kuaibu.fragment.MyinfoFragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -18,6 +20,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 /**
  * 主界面
  * @author zjc
@@ -44,6 +47,9 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
 	private FragmentManager manager;
 	private FragmentTransaction transaction;
 	private TextView text1;
+	private long firstTime=0;
+	
+	public static String islogin = "false";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -166,12 +172,36 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
 			imageView2.setBackgroundResource(R.drawable.find_indicator);
 			imageView4.setBackgroundResource(R.drawable.myinfo_indicator_selected);
 			imageView5.setBackgroundResource(R.drawable.friend_indicator_selected);
-			//cese
 			break;
 
 		default:
 			break;
 		}
 	}
-
+	
+	/**
+	 * 双击
+	 */
+	@Override
+	public boolean onKeyUp(int keyCode, KeyEvent event) 
+	{
+		switch (keyCode) 
+		{
+			case KeyEvent.KEYCODE_BACK:
+				long secondTime=System.currentTimeMillis();
+				if (secondTime-firstTime>2000)
+				{
+					Toast.makeText(this,"双击退出系统", Toast.LENGTH_SHORT).show();
+					firstTime=secondTime;
+					return true;
+				} else 
+				{
+					finish();
+				}
+				break;
+			default:
+				break;
+		}
+		return super.onKeyUp(keyCode, event);
+	}
 }

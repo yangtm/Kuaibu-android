@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity" 
+    android:orientation="vertical">
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#0080FF"
+        >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="广告位招租"
+            android:textColor="#000000"
+            android:gravity="center"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/fragment_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/iv_login"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="登录"/>
+
+            <TextView
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/iv_register"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:text="注册"/>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

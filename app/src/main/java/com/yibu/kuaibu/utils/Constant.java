@@ -17,7 +17,7 @@ public class Constant {
 		//服务器地址
 		
 		//内网测试环境
-		public static final String YB_SERVER= "http://192.168.1.119:8082/kuaibu-appServier/";
+		public static final String YB_SERVER= "http://192.168.1.119:8082/kuaibu-appService/";
 
 		//外网正式环境
 		//public static final String YB_SERVER ="";
@@ -29,7 +29,27 @@ public class Constant {
 		//用户登录接口
 		public static final String LOGIN_URL=YB_SERVER+"member/memberLogin";
 		
+		//用户修改密码接口
+		public static final String UPDATEPWD_URL=YB_SERVER+"member/saveUpdateMemberPassword";
+		
+		
+		//用户退出登录接口
+		public static final String LOGINOUT_URL=YB_SERVER+"member/outlogin";
+		
+		//获取验证码接口
+		public static final String MAKESURE_URL=YB_SERVER+"sendSms/getCheckCode";
+		
+		//获取验证码接口
+		public static final String USERINFO_URL=YB_SERVER+"member/memberInfo";
+
+		
+		//重置密码接口
+		public static final String UPDATEPWDBYFORGET_URL=YB_SERVER+"member/forgetPassword";
+		
 		//用户注册接口
 		public static final String REGISTER_URL=YB_SERVER+"member/memberRegister";
+		
+		/**获取个人信息接口*/
+		public static final String SELF_INFO_URL=YB_SERVER+"member/memberInfo";
 		
 }

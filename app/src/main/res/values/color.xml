@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">#FF000000</color>
+	<color name="control_back">#AA00003D</color>
+	<color name="list_divider">#CFCFCF</color>
+
+    <color name="header_bg">#f8f8f8</color>
+    <color name="bg_menu_shadow">#80000000</color>
+	<color name="bind_cancel_press">#ffd65284</color>
+	<color name="expert_top_tv_normal">#ffef71a1</color>
+	<color name="list_bg">#eeeeee</color>
+	<color name="redcode">#ff4100</color>
+	<color name="btn_bg">#ff4100</color>
+	<color name="vip_line">#ff000c</color>
+	<color name="type_code">#999999</color>
+
+    <!-- 设置、列表混合控件点击颜色 -->
+    <color name="group_item_active">#77cccccc</color>
+    <color name="group_item_nomal">#ffffff</color>
+
+    <!-- 线条色 -->
+    <color name="line_bg1">#cccccc</color>
+    <color name="line_bg_title">#e4514f</color>
+    <color name="circle_bg">#de4b2a</color>
+    <color name="content_bg">#efefef</color>
+    <color name="button_sharp_nomal">#fd4102</color>
+    <color name="button_sharp_active">#d0d0d0</color>
+    <color name="transparent_background">#99000000</color>
+
+    <!-- hx -->
+    <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="btn_login_normal">#007086</color>
+    <color name="btn_login_pressed">#303744</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#2dafa3</color>
+    <color name="btn_register_pressed">#4ebcd3</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="divider_list">#cccccc</color>
+    <color name="top_bar_normal_bg">#4ebcd3</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="gray_normal">#666667</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="voip_interface_text_color">#bababa</color>
+    <color name="black_deep">#FF000000</color>
+    <color name="transparent">#00000000</color>
+    <!-- hx end -->
+    <color name="red_main">#d9414e</color>
+    <color name="text_color">#333333</color>
+
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="line_bg">#b3b3b3</color>
+    <color name="baise">#FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="gray_search">#CCCBD0</color>
+    <color name="gray3">#333333</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange2">#FFA500</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="grayslate">#708090</color>
+    <color name="lightblue">#0083FF</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="half_transparent">#aa000000</color>
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="bright_foreground_light_inverse">#ffffffff</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    <color name="dim_foreground_light">#808080</color>
+    <color name="dim_foreground_light_disabled">#80323232</color>
+    <color name="dim_foreground_light_inverse">#ff006eaa</color>
+    <color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
+    <color name="head_text">#0e5986</color>
+    <color name="author_text">#0e5986</color>
+    <color name="face_bg">#eef1f4</color>
+    <color name="frame_button_text_nor">#033a5c</color>
+    <color name="frame_button_text_select">#FFFFFF</color>
+    <color name="listitem_transparent">#00000000</color>
+    <color name="listitem_transparent_select">#ff30baff</color>
+    <color name="listitem_transparent_line">#cdcdcd</color>
+    <color name="listitem_black">#ff000000</color>
+    <color name="listitem_white">#ffffffff</color>
+    <color name="listitem_blue">#0e5986</color>
+    <color name="listitem_gray">#ff9da19e</color>
+    <color name="listitem_green">#ffe3ffc6</color>
+    <color name="listitem_greenyellow">#ff87b869</color>
+    <color name="listitem_yellow">#fffaffbf</color>
+    <color name="shouye_top_back">#00a8ff</color>
+    <color name="shouye_bottom_back">#FFFFFF</color>
+    <color name="shouye_user_name">#FFFFFF</color>
+    <color name="shouye_user_lv">#ffd800</color>
+    <color name="shouye_user_cash">#FFFFFF</color>
+    <color name="shouye_finish_task_name">#FFFFFF</color>
+    <color name="shouye_finish_task_num">#fff000</color>
+    <color name="shouye_todo_name">#FFFFFF</color>
+    <color name="shouye_todo_num">#ff9600</color>
+    <color name="detail_header_bg">#00AAFF</color>
+    <color name="detail_text_pressed_color">#e2e2e2</color>
+    <color name="detail_text_color">#383838</color>
+    <color name="set_line_color">#c7c7c7</color>
+    <color name="detail_down_pressed_color">#96b1be</color>
+    <!-- 首页下半部分割线 -->
+    <color name="shouye_bott_divide">#d3d3d3</color>
+
+    <!-- 底部工具栏 -->
+    <color name="foot_color">#f4f4f2</color>
+
+    <!-- 头部工具栏 -->
+    <color name="head_color">#00a8ff</color>
+
+    <!-- 提现页面背景 -->
+    <color name="tx_back_color">#eaeaea</color>
+
+    <!-- 提现详细页面背景 -->
+    <color name="tx_detail_back_color">#eaeaea</color>
+
+    <!-- 体现页面 提交按钮颜色 -->
+    <color name="tx_confirm_button">#00a8ff</color>
+
+    <!-- 提现详细页面选中字体颜色 -->
+    <color name="tx_detail_chose_color">#00a8ff</color>
+
+    <!-- 提现详细页面未选中字体颜色 -->
+    <color name="tx_detail_unchose_color">#000000</color>
+
+    <!-- 注册登录页面背景 -->
+    <color name="regis_detail_back_color">#eaeaea</color>
+
+    <!-- 登陆页面，注册文本文字颜色 -->
+    <color name="login_regis_font_color">#00abff</color>
+
+    <!-- 兑换记录页面listview背景 -->
+    <color name="ex_record_listview_back">#eaeaea</color>
+
+    <!-- 任务,兑换记录页面,listviewitem -->
+    <color name="list_item_color">#00aaff</color>
+
+    <color name="gridview_no_select">#D1CDC8</color>
+    <color name="gridview_select">#D65A25</color>
+    <color name="search_select">#ff4100</color>
+    <color name="search_normal">#ffffff</color>
+    <!-- 店铺列表-->
+    <color name="shop_tab_textColor_red">#E84410</color>
+    <color name="shop_tab_textColor_white">#ffffff</color>
+    
+    <!-- 采购列表-->
+    <color name="btn_mycaigou_statue">#fedeaa</color>
+    <color name="btn_mycaigou_statue_text">#eaa969</color>
+</resources>
