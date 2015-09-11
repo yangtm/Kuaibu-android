@@ -6,22 +6,32 @@ import java.security.NoSuchAlgorithmException;
 public class MD5 {
 	// MD5��Q
 	public static String Md5(String str) {
-		if (str != null && !str.equals("")) {
-			try {
-				MessageDigest md5 = MessageDigest.getInstance("MD5");
-				char[] HEX = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f' };
-				byte[] md5Byte = md5.digest(str.getBytes("UTF8"));
-				StringBuffer sb = new StringBuffer();
-				for (int i = 0; i < md5Byte.length; i++) {
-					sb.append(HEX[(int) (md5Byte[i] & 0xff) / 16]);
-					sb.append(HEX[(int) (md5Byte[i] & 0xff) % 16]);
-				}
-				str = sb.toString();
-			} catch (NoSuchAlgorithmException e) {
-			} catch (Exception e) {
-			}
+		String e_md5 = null;
+		try{
+			MessageDigest md5 = MessageDigest.getInstance("MD5");
+			md5.update(str.getBytes("UTF-8"));
+			e_md5 = parseByte2HexStr(md5.digest());
+		}catch (Exception ex){
+			ex.printStackTrace();
 		}
-		return str;
+		return e_md5;
+	}
+
+	/**
+	 * 将二进制转换成16进制
+	 * @param buf
+	 * @return
+	 */
+	public static String parseByte2HexStr(byte buf[]) {
+		StringBuffer sb = new StringBuffer();
+		for (int i = 0; i < buf.length; i++) {
+			String hex = Integer.toHexString(buf[i] & 0xFF);
+			if (hex.length() == 1) {
+				hex = '0' + hex;
+			}
+			sb.append(hex.toUpperCase());
+		}
+		return sb.toString();
 	}
 	
 }
